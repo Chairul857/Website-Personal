@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jasa Analisis Data</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+    }
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    header .social-icons a {
+      color: white;
+      margin-left: 15px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    header a.btn {
+      background: white;
+      color: #6a11cb;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 42px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .btn-primary {
+      background: white;
+      color: #6a11cb;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .section {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px 20px;
+      border-radius: 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+    }
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      color: #6a11cb;
+      padding: 20px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.8);
+    }
+    footer .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 24px;
+      text-decoration: none;
+    }
+    /* Floating WhatsApp button */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      text-decoration: none;
+      z-index: 1000;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-10px);}
+      60% {transform: translateY(-5px);}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>OlahDataKu</h1>
+  <div class="social-icons">
+    <a href="https://wa.me/0895412717083" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://facebook.com/username" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="btn">Hubungi Kami</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Bingung Analisis Data? Kami Solusinya!</h2>
+  <p>Kami membantu mahasiswa & peneliti untuk analisis data skripsi, tesis, dan jurnal ilmiah dengan cepat, akurat, dan terpercaya.</p>
+  <a href="https://wa.me/0895412717083" target="_blank" class="btn-primary">Konsultasi Gratis via WhatsApp</a>
+</section>
+
+<section class="section">
+  <h3>Portofolio</h3>
+  <div class="cards">
+    <div class="card">Analisis Kuantitatif SPSS</div>
+    <div class="card">Analisis Kualitatif </div>
+    <div class="card">Analisis PROCESS by Hayes </div>
+    <div class="card">Analisis Statistik Jurnal </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Harga Layanan</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Paket Skripsi</h4>
+      <p>Rp 75.000 - 150.000 per variabel</p>
+      <p>Analisis data skripsi + intepretasi.</p>
+    </div>
+    <div class="card">
+      <h4>Paket Tesis</h4>
+      <p>Rp 100.000 - 200.000 per variabel</p>
+      <p>Analisis data tesis + intepretasi..</p>
+    </div>
+    <div class="card">
+      <h4>Paket Jurnal</h4>
+      <p>Rp 75.000 - 150.000 per variabel</p>
+      <p>Analisis data jurnal + revisi sesuai reviewer.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Testimoni Klien</h3>
+  <div class="cards">
+    <div class="card">⭐️⭐️⭐️⭐️⭐️<br>"Pelayanannya cepat & hasil analisis sangat membantu skripsi saya." - Andi</div>
+    <div class="card">⭐️⭐️⭐️⭐️⭐️<br>"Hasil analisis untuk jurnal Q3 saya sangat memuaskan & tepat waktu." - Siti</div>
+    <div class="card">⭐️⭐️⭐️⭐️⭐️<br>"Dibantu sampai revisi selesai, recommended banget!" - Budi</div>
+  </div>
+</section>
+
+<footer>
+  <div class="social-icons">
+    <a href="https://wa.me/0895412717083" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://facebook.com/username" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+  <p>© 2025 OlahDataKu. All rights reserved.</p>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/0895412717083?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20jasa%20analisis%20data" 
+   class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
